@@ -12,34 +12,34 @@ Data (train, ideal, and test) is loaded and program then finds which 4 ideal fun
 
 
 ## Project Structure
-
+```text
 project_root/
 │
 ├── src/
 │   └── app/
 │       ├── __init__.py
-│       ├── main.py                         # Main entry point (execution script)
-│       ├── config.py                       # Configuration settings (database URL, paths, constants)
-│       ├── exceptions.py                   # Custom exception classes
+│       ├── main.py
+│       ├── config.py
+│       ├── exceptions.py
 │       │
 │       ├── data/
 │       │   ├── __init__.py
-│       │   ├── database.py                 # Handles database connection (SQLite)
-│       │   ├── data_handler.py             # Handles CSV load/save/validate
-│       │   └── training_data_handler.py    # Handles specific training data loading logic
+│       │   ├── database.py
+│       │   ├── data_handler.py
+│       │   └── training_data_handler.py
 │       │
 │       ├── core/
 │       │   ├── __init__.py
-│       │   ├── ideal_function_selector.py  # Selects the best-fit ideal functions
-│       │   └── test_point_mapper.py        # Maps test points to selected functions
+│       │   ├── ideal_function_selector.py
+│       │   └── test_point_mapper.py
 │       │
 │       └── visualisation/
 │           ├── __init__.py
-│           └── visualiser.py               # Bokeh plots
+│           └── visualiser.py
 │
 ├── tests/
 │   ├── __init__.py
-│   └── test_ideal_function_selector.py     # Unit tests
+│   └── test_ideal_function_selector.py
 │
 ├── datasets/
 │   ├── train.csv
@@ -47,13 +47,15 @@ project_root/
 │   └── test.csv
 │
 ├── output/
-│   └── ...                                  # Generated database and visualisations
+│   └── ... 
 │
-├── requirements.txt                         # Python dependencies
-├── Dockerfile                               # Docker configuration
-├── docker-compose.yml                       # Docker Compose configuration
-├── .dockerignore                            # Files ignored by Docker
-└── README.md                                # Documentation
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+├── .dockerignore
+└── README.md
+```
+
 
 
 ## Requirements
