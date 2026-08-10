@@ -12,40 +12,49 @@ Data (train, ideal, and test) is loaded and program then finds which 4 ideal fun
 
 
 ## Project Structure
+
 project_root/
+│
 ├── src/
 │   └── app/
 │       ├── __init__.py
-│       ├── main.py                        # Main entry point(execution script)
-│       ├── config.py                      # Configuration Settings(Database URL, paths, constants)
-│       ├── exceptions.py                  # Exceptions(custom) classes
+│       ├── main.py                         # Main entry point (execution script)
+│       ├── config.py                       # Configuration settings (database URL, paths, constants)
+│       ├── exceptions.py                   # Custom exception classes
 │       │
 │       ├── data/
 │       │   ├── __init__.py
-│       │   ├── database.py                # Handles Database connection(SQlite Handling)
-│       │   ├── data_handler.py            # Handles CSV load/save/validate
-│       │   └── training_data_handler.py   # Handles specific training data loading logic
+│       │   ├── database.py                 # Handles database connection (SQLite)
+│       │   ├── data_handler.py             # Handles CSV load/save/validate
+│       │   └── training_data_handler.py    # Handles specific training data loading logic
 │       │
 │       ├── core/
 │       │   ├── __init__.py
-│       │   ├── ideal_function_selector.py # Selects the best-fit ideal functions
-│       │   └── test_point_mapper.py       # Maps the test points to selected functions
+│       │   ├── ideal_function_selector.py  # Selects the best-fit ideal functions
+│       │   └── test_point_mapper.py        # Maps test points to selected functions
 │       │
 │       └── visualisation/
 │           ├── __init__.py
-│           └── visualiser.py              # Bokeh plots
+│           └── visualiser.py               # Bokeh plots
 │
 ├── tests/
 │   ├── __init__.py
-│   └── test_ideal_function_selector.py    # Unit tests
+│   └── test_ideal_function_selector.py     # Unit tests
 │
-├── datasets/                                  # Train.csv, ideal.csv, test.csv
-├── output/                                # Generated Database and visualisations
-│── requirements.txt           # Dependencies For Python
-│── Dockerfile                 # Docker configuration file
-│── docker-compose.yml         # Docker Compose configuration
-│── dockerignore              # Files that are to be ignored in the Docker container
-└── README.md                 # Documentation File
+├── datasets/
+│   ├── train.csv
+│   ├── ideal.csv
+│   └── test.csv
+│
+├── output/
+│   └── ...                                  # Generated database and visualisations
+│
+├── requirements.txt                         # Python dependencies
+├── Dockerfile                               # Docker configuration
+├── docker-compose.yml                       # Docker Compose configuration
+├── .dockerignore                            # Files ignored by Docker
+└── README.md                                # Documentation
+```
 
 ## Requirements
 
