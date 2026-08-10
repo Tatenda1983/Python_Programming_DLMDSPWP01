@@ -54,7 +54,7 @@ project_root/
 ├── docker-compose.yml                       # Docker Compose configuration
 ├── .dockerignore                            # Files ignored by Docker
 └── README.md                                # Documentation
-```
+
 
 ## Requirements
 
