@@ -47,7 +47,7 @@ project_root/
 │   └── test.csv
 │
 ├── output/
-│   └── ... 
+│   └── ...
 │
 ├── requirements.txt
 ├── Dockerfile
