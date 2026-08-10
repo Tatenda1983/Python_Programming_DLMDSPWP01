@@ -18,42 +18,42 @@ project_root/
 ├── src/
 │   └── app/
 │       ├── __init__.py
-│       ├── main.py
-│       ├── config.py
-│       ├── exceptions.py
+│       ├── main.py                                     # Main entry point (execution script)
+│       ├── config.py                                   # Configuration Settings (Database URL, paths, constants)
+│       ├── exceptions.py                               # Exceptions(custom) classes
 │       │
 │       ├── data/
 │       │   ├── __init__.py
-│       │   ├── database.py
-│       │   ├── data_handler.py
-│       │   └── training_data_handler.py
+│       │   ├── database.py                              # Handles Database connection (SQlite Handling)
+│       │   ├── data_handler.py                          # Handles CSV load/save/validate
+│       │   └── training_data_handler.py                 # Handles specific training data loading logic
 │       │
 │       ├── core/
 │       │   ├── __init__.py
-│       │   ├── ideal_function_selector.py
-│       │   └── test_point_mapper.py
+│       │   ├── ideal_function_selector.py                # Selects the best-fit ideal functions
+│       │   └── test_point_mapper.py                      # Maps the test points to selected functions
 │       │
 │       └── visualisation/
 │           ├── __init__.py
-│           └── visualiser.py
+│           └── visualiser.py                             # Bokeh plots
 │
 ├── tests/
 │   ├── __init__.py
-│   └── test_ideal_function_selector.py
+│   └── test_ideal_function_selector.py                   # Unit tests
 │
-├── datasets/
-│   ├── train.csv
+├── datasets/                                              # Train.csv, ideal.csv, test.csv
+│   ├── train.csv                                          
 │   ├── ideal.csv
 │   └── test.csv
 │
-├── output/
+├── output/                                                # Generated Database and visualisations
 │   └── ...
 │
-├── requirements.txt
-├── Dockerfile
-├── docker-compose.yml
-├── .dockerignore
-└── README.md
+├── requirements.txt                                        # Dependencies for Python
+├── Dockerfile                                              # Docker configuration file
+├── docker-compose.yml                                      # Docker Compose configuration
+├── .dockerignore                                           # Files that are to be ignored in the Docker container
+└── README.md                                               # Documentation File
 ```
 
 
