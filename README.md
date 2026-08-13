@@ -185,15 +185,19 @@ It provides the following workflow:
 Data Load(Calls functions in database.py to read CSV files and load their contents into the SQLite database), Database Paths, Ideal function selection(Invokes find_best_fit in TrainingDataSet to select the ideal function that most closely matches each training data column.), Test data mapped(Calls map_test_points from TestDataSet to associate each test data point with its corresponding ideal function.), Visualisation(Runs visualizer.py to generate plots of the ideal functions and mapped test data points, then saves the output as a standalone HTML file.), Unit tests
 
 ## Output
-After the application has been launched, a Bokeh plot is generated, displaying:
-Plots of Ideal function lines.
-Plot of Test data points mapped to their closest ideal function.
+After the application has been launched, a Bokeh plot is generated, displaying:  
+
+Plots of Ideal function lines.  
+
+Plot of Test data points mapped to their closest ideal function.  
+
 Open bokeh/ouput.html in your browser to see the visual representation.
 
 ## License
 This project is distributed as open-source software under the MIT License.
  ## Contact
-Please don't hesitate to reach out with any questions!tatendamacha@yahoo.com
+Please don't hesitate to reach out with any questions!tatendamacha@yahoo.com  
+
 https://github.com/Tatenda1983
 
 
