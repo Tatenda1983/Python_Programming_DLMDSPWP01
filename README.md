@@ -115,7 +115,8 @@ Steps:
 output/ folder is used to save visualizations
 
 ## OUTPUT
-Logs are monitored using the following command:
+Logs are monitored using the following command:  
+
 ```docker-compose logs```
 
 Output File View
@@ -123,7 +124,8 @@ Output File View
 Output via bokeh
 
 ## HALTING THE APPLICATION
-The application is stopped by the following command:
+The application is stopped by the following command:  
+
 ```docker-compose down```
 
 ## PROJECT METHODOLOGY
