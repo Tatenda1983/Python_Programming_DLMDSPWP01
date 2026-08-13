@@ -51,7 +51,7 @@ project_root/
 │
 ├── requirements.txt                                        # Dependencies for Python
 ├── Dockerfile                                              # Docker configuration file
-├── docker-compose.yml                                      # Docker Compose configuration
+├── .gitignore                                              # Files to be untracked and excluded from repository uploads 
 ├── .dockerignore                                           # Files that are to be ignored in the Docker container
 └── README.md                                               # Documentation File
 ```
