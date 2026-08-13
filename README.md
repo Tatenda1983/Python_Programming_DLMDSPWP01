@@ -97,8 +97,7 @@ Docker Containerization
 Docker is the container environment where the application and its dependencies are being run. 
 
 ## Docker Image Creation
-```docker-compose build
-```
+```docker-compose build```
   
 
 It ensures image is created and all dependencies are installed.
@@ -117,8 +116,7 @@ output/ folder is used to save visualizations
 
 ## OUTPUT
 Logs are monitored using the following command:
-```docker-compose logs
-```
+```docker-compose logs```
 
 Output File View
 
@@ -126,8 +124,7 @@ Output via bokeh
 
 ## HALTING THE APPLICATION
 The application is stopped by the following command:
-```docker-compose down
-```
+```docker-compose down```
 
 ## PROJECT METHODOLOGY
 
