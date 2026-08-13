@@ -86,7 +86,8 @@ Git bash command: ls data
 ```Expected output:
 “bash output”
 
-train.csv ideal.csv test.csv```
+train.csv ideal.csv test.csv
+```
 
 
 If there are missing files, they are added before starting the process.
