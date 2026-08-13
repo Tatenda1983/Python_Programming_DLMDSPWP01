@@ -73,7 +73,9 @@ project_root/
 ## Deployment
 ## 1.	Repository Cloned
 Git bash Start by cloning the project repository to the local machine using bash command:
+
 git clone  https://github.com/Tatenda1983/programming_with_python_DLMDSPWP01.git
+
 cd programming_with_python_DLMDSPWP01/Ideal _Function _Selection and Mapping Project Assignment
 
 ## 2. CSV Files are checked
