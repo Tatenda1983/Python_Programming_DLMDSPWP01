@@ -80,7 +80,9 @@ cd programming_with_python_DLMDSPWP01/Ideal _Function _Selection and Mapping Pro
 
 ## 2. CSV Files are checked
 Prior to running the application, CSV files are ensured that they are inside the data/ folder
+
 Git bash command: ls data
+
 Expected output:
 “bash output”
 train.csv ideal.csv test.csv
