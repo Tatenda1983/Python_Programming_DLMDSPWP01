@@ -83,10 +83,10 @@ Prior to running the application, CSV files are ensured that they are inside the
 
 Git bash command: ls data
 
-'''Expected output:
+```Expected output:
 “bash output”
 
-train.csv ideal.csv test.csv'''
+train.csv ideal.csv test.csv```
 
 
 If there are missing files, they are added before starting the process.
