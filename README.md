@@ -104,8 +104,7 @@ Docker is the container environment where the application and its dependencies a
 It ensures image is created and all dependencies are installed.
 
 ## Launching The Application
-```docker-compose up
-```
+```docker-compose up```
 
 Steps:
 
