@@ -112,7 +112,7 @@ Output File View
 
 Output via bokeh
 
-## HALTING THE APPLICATION**
+## HALTING THE APPLICATION
 The application is stopped by the following command:
 docker-compose down
 
