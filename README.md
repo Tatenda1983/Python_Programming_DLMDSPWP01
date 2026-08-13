@@ -98,7 +98,8 @@ Docker is the container environment where the application and its dependencies a
 
 ## Docker Image Creation
 ```docker-compose build
-```  
+```
+  
 
 It ensures image is created and all dependencies are installed.
 
